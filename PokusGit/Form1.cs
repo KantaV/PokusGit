@@ -16,5 +16,11 @@ namespace PokusGit
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int soucet = int.Parse(textBox1.Text) + int.Parse(textBox2.Text);
+            label1.Text = soucet.ToString();
+        }
     }
 }
