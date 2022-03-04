@@ -29,5 +29,10 @@ namespace PokusGit
             MessageBox.Show(podil.ToString());
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Vojta Kanta ITA2");
+        }
     }
 }
