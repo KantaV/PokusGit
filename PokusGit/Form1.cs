@@ -21,6 +21,13 @@ namespace PokusGit
         {
             int soucet = int.Parse(textBox1.Text) + int.Parse(textBox2.Text);
             label1.Text = soucet.ToString();
+            double rozdil = double.Parse(textBox1.Text) - double.Parse(textBox2.Text);
+            double soucin = double.Parse(textBox1.Text) * double.Parse(textBox2.Text);
+            double podil = double.Parse(textBox1.Text) / double.Parse(textBox2.Text);
+            MessageBox.Show(rozdil.ToString());
+            MessageBox.Show(soucin.ToString());
+            MessageBox.Show(podil.ToString());
+
         }
     }
 }
