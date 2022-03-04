@@ -34,5 +34,17 @@ namespace PokusGit
         {
             MessageBox.Show("Vojta Kanta ITA2");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            long faktorial = 1;
+            int i = 1;
+            while (i<=int.Parse(textBox3.Text))
+            {
+                faktorial *= i;
+                ++i;
+            }
+            MessageBox.Show(faktorial.ToString());
+        }
     }
 }
