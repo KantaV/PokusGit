@@ -46,5 +46,10 @@ namespace PokusGit
             }
             MessageBox.Show(faktorial.ToString());
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Jsem doma");
+        }
     }
 }
